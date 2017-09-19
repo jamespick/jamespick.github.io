@@ -1308,14 +1308,24 @@
 	}
 
 /* Basic */
-
+	
+	html:before {
+			background: url("images/overlay.png");
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+	}
 	html {
 		background-color: red;
 		background-attachment: fixed,						fixed;
-		background-image: url("../../images/Coda 2/Jump.jpg");
+		background-image: url("../../images/Cover.jpg");
 		background-position: center;
 		background-repeat: repeat,						none;
-		background-size: cover;
+		background-size: 100%;
 	}
 
 	html.is-loading body *, html.is-loading body *:before, html.is-loading body *:after {
