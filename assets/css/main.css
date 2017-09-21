@@ -1310,7 +1310,7 @@
 /* Basic */
 	
 	html:before {
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -1320,12 +1320,12 @@
 			width: 100%;
 	}
 	html {
-		background-color: red;
+		background-color: rgb(5, 5, 5);
 		background-attachment: fixed,						fixed;
-		background-image: url("../../images/Cover.jpg");
-		background-position: center;
+		background-image: url("../../images/Head copy.jpg");
+		background-position: bottom;
 		background-repeat: repeat,						none;
-		background-size: 100%;
+		background-size: 110%;
 	}
 
 	html.is-loading body *, html.is-loading body *:before, html.is-loading body *:after {
@@ -2180,7 +2180,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -2289,8 +2289,9 @@
 			ul.icons-grid li {
 				display: block;
 				float: left;
-				padding: 3em 0;
 				width: 50%;
+				height: 200px;
+				padding: 0.5em;
 			}
 
 				ul.icons-grid li h3 {
@@ -2298,10 +2299,11 @@
 				}
 
 				ul.icons-grid li:nth-child(2n + 1) {
-					box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
+					/*box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;*/
 				}
 
-				ul.icons-grid li:nth-child(2n + 3):before {
+				/*ul.icons-grid li:nth-child(2n + 3):before {
+
 					background: #dddddd;
 					content: '';
 					display: block;
@@ -2309,7 +2311,7 @@
 					margin-top: -3em;
 					position: absolute;
 					width: 100%;
-				}
+				}*/
 
 			ul.icons-grid:after {
 				clear: both;
