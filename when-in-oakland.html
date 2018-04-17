@@ -74,28 +74,28 @@
 		var spot = document.getElementById('spot');
 		spot.style.cursor = 'pointer';
 		spot.onclick = function() {
-			console.log('lsdkjf');
+			ga('send', 'event', "Stream", "Spotify");
 		    window.location.href = 'https://open.spotify.com/album/3YgDAzYgisXq0l0dhw3sC8?si=AVILyVzSQSyPaCD2s25Xzw';
 		};
 
 		var apple = document.getElementById('apple');
 		apple.style.cursor = 'pointer';
 		apple.onclick = function() {
-			console.log('lsdkjf');
+			ga('send', 'event', "Stream", "Apple Music");
 		    window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo/1323049382?i=1323049965';
 		};
 
 		var sound = document.getElementById('sound');
 		sound.style.cursor = 'pointer';
 		sound.onclick = function() {
-			console.log('lsdkjf');
+			ga('send', 'event', "Stream", "Soundcloud");
 		    window.location.href = 'https://soundcloud.com/nxg/what-that-mean';
 		};
 
 		var you = document.getElementById('you');
 		you.style.cursor = 'pointer';
 		you.onclick = function() {
-			console.log('lsdkjf');
+			ga('send', 'event', "Stream", "iTunes");
 		    window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo-single/1323049382';
 		};
 	</script>
