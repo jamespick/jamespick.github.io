@@ -82,7 +82,12 @@
 		var apple = document.getElementById('apple');
 		apple.style.cursor = 'pointer';
 		apple.onclick = function() {
-			gtag('send', 'event', "Stream", "Apple Music", 'hitCallback': function(){window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo/1323049382?i=1323049965';});
+			gtag('send', 'event', "Stream", "Apple Music", {
+				'transport': 'beacon', 
+				'hitCallBack': function() {
+					window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo/1323049382?i=1323049965';
+				}
+			});
 		    
 		};
 
