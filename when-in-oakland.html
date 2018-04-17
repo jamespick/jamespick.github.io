@@ -13,8 +13,7 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-117770134-1');
-			ga('create', 'UA-117770134-1', 'auto');
-  			ga('send', 'pageview');
+  			gtag('send', 'pageview');
 		</script>
 
 		<title>Stream When In Oakland</title>
@@ -83,7 +82,7 @@
 		var apple = document.getElementById('apple');
 		apple.style.cursor = 'pointer';
 		apple.onclick = function() {
-			ga('send', 'event', "Stream", "Apple Music", 'hitCallback': function(){window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo/1323049382?i=1323049965';});
+			gtag('send', 'event', "Stream", "Apple Music", 'hitCallback': function(){window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo/1323049382?i=1323049965';});
 		    
 		};
 
