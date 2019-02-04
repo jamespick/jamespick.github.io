@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117770134-1"></script>
+		<script>
+ 			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-117770134-1', {
+  				'cookie_domain': 'pickpatek.com'
+			});
+		</script>
+
+		<title>Stream When In Oakland</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<style type="text/css">
+		body, div {
+			font-family: "Raleway", "Helvetica", sans-serif;
+			margin: 0;
+			padding: 20px;
+			width: 100%;
+			box-sizing:border-box;  /** add this **/
+ 			-moz-box-sizing:border-box; /** add this **/
+ 			-webkit-box-sizing:border-box; /** add this **/
+ 			-ms-box-sizing:border-box; /** add this **/
+		}
+		body {
+			background-image: url('images/he.jpg');
+			background-position: 60% 35%;
+			background-size: 300%;
+		}
+		h7 {
+			color: white;
+			font-weight: 800;
+			letter-spacing: 0.075em;
+			font-size: 1.75em;
+			text-transform: uppercase;
+		}
+		.box {
+			box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    -webkit-box-sizing: border-box;
+		}
+		</style>
+	</head>
+	<body>
+		<!--<div style="width: 100%; height: 100%; padding: 20px;">-->
+			<center><h2 style="color: white">STREAM AWOL<br><br></h2></center>
+			<div class="box" id="vid" style="width: 100%; border-style: solid; border-width: 5px; border-color: white; padding: 10px 5px 5px 5px">
+				<center><h7>Video</h7></center>
+			</div>
+			<br><br>
+			<div class="box" id="spot" style="width: 100%; border-style: solid; border-width: 5px; border-color: white; padding: 10px 5px 5px 5px">
+				<center><h7>Spotify</h7></center>
+			</div>
+			<br><br>
+			<div class="box" id="apple" style="width: 100%; border-style: solid; border-width: 5px; border-color: white; padding: 10px 5px 5px 5px">
+				<center><h7>Apple Music</h7></center>
+			</div>
+			<br><br>
+			<div class="box" id="sound" style="width: 100%; border-style: solid; border-width: 5px; border-color: white; padding: 10px 5px 5px 5px">
+				<center><h7>Soundcloud</h7></center>
+			</div>
+			<br><br>
+	</body>
+	<script type="text/javascript">
+		var vid = document.getElementById('vid');
+		vid.style.cursor = 'pointer';
+		vid.onclick = function() {
+			gtag('event', 'video', {
+				'event_callback': function() {
+					window.location.href = 'https://www.youtube.com/watch?v=pa4qLICL3rQ';
+				}
+			});
+		};
+
+		var spot = document.getElementById('spot');
+		spot.style.cursor = 'pointer';
+		spot.onclick = function() {
+			gtag('event', 'spotify', {
+				'event_callback': function() {
+					window.location.href = 'https://open.spotify.com/album/510HrqStm6twGWQPvPdHHb?si=8Vgy46aIT_muGwUP8oeuKg';
+				}
+			});
+		};
+
+		var apple = document.getElementById('apple');
+		apple.style.cursor = 'pointer';
+		apple.onclick = function() {
+			gtag('event', 'apple-music', {
+				'event_callback': function() {
+					window.location.href = 'https://itunes.apple.com/us/album/awol/1450776846?i=1450776847';
+				}
+			});
+		};
+
+		var sound = document.getElementById('sound');
+		sound.style.cursor = 'pointer';
+		sound.onclick = function() {
+			gtag('event', 'soundcloud', {
+				'event_callback': function() {
+					window.location.href = 'https://soundcloud.com/pickpatek/awol-prod-dropouts';
+				}
+			});
+		};
+
+		// var you = document.getElementById('you');
+		// you.style.cursor = 'pointer';
+		// you.onclick = function() {
+		// 	gtag('event', 'itunes', {
+		// 		'event_callback': function() {
+		// 			window.location.href = 'https://itunes.apple.com/us/album/what-that-mean-feat-tom-primo-single/1323049382';
+		// 		}
+		// 	});
+		// };
+	</script>
+</html>
