@@ -1322,8 +1322,8 @@
 	html {
 		background-color: rgb(5, 5, 5);
 		background-attachment: fixed,						fixed;
-		background-image: url("../../images/Cover.png");
-		background-position: 50% 20%;
+		background-image: url("../../images/Hank.jpg");
+		background-position: 50% 30%;
 		background-repeat: repeat,						none;
 		background-size: 110%;
 	}
@@ -1366,13 +1366,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: rgb(82, 128, 182) /* TING */;
+		color: #0a0a0a /* TING */;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: rgb(82, 128, 182) /* TING */ !important;
+			color: #0a0a0a /* TING */ !important;
 			text-decoration: none;
 		}
 
@@ -1982,7 +1982,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px rgb(82, 128, 182) /* TING */;
+			box-shadow: inset 0 0 0 2px #0a0a0a /* TING */;
 		}
 
 	.select-wrapper {
@@ -2089,7 +2089,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: inset 0 0 0 2px rgb(82, 128, 182) /* TING */;
+			box-shadow: inset 0 0 0 2px #0a0a0a /* TING */;
 		}
 
 	input[type="radio"] + label:before {
@@ -2497,7 +2497,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgb(82, 128, 182) /* TING */;
+			background-color: #0a0a0a /* TING */;
 			color: #61686b !important;
 		}
 
@@ -2506,7 +2506,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgb(82, 128, 182) /* TING */;
+			background-color: #0a0a0a /* TING */;
 			color: #61686b !important;
 		}
 
@@ -2558,7 +2558,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: rgb(82, 128, 182) /* TING */;
+			background-color: #0a0a0a /* TING */;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
